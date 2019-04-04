@@ -1,0 +1,104 @@
+/*
+Cascade Style Sheets
+selector{
+    property: value;
+}
+---------------------------------
+css-tricks.com <-- CSS information
+unsplash.com <-- Imagenes gratis
+paletton.com
+specificity.keegan.st
+fonts.google.com
+cssminifier.com
+*/
+
+/*
+
+* {
+    font-family: monospace;
+}
+*/
+
+body{
+    background-image: url(backgraundimage.jpg);
+    background-size: cover;
+}
+
+h2, p{
+    color: whitesmoke;
+    text-align: center;
+    border: 5px solid rgb(255,176,176, 0.4);
+    cursor: pointer;
+}
+
+li{
+    color: whitesmoke;
+
+}
+
+p{
+    color: forestgreen;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size:80%;
+    font-family: 'Raleway', sans-serif;
+;
+    
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    color: antiquewhite;
+}
+
+/* unvisited link */
+a:link {
+  color: antiquewhite;
+}
+
+/* visited link */
+a:visited {
+  color: navajowhite;
+}
+
+/* mouse over link */
+a:hover {
+  color: orangered;
+}
+
+/* selected link */
+a:active {
+  color: lightgray;
+}
+
+img{
+    float: right;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+}
+
+.webtext{
+    border: 1px dashed green;
+}
+
+.active{
+    color:azure;
+}
+
+#div1 { 
+    background: rgb(0,0,255,0.1);
+}
+
+#div2 { 
+    background: rgb(255,0,255,0.1);
+}

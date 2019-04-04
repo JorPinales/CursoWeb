@@ -1,0 +1,76 @@
+JAVASCRIT TYPES
+1. Number
+    3+4
+--> 7
+
+2. String
+"STRING"
+"HELLO " + "THERE!" --> "HELO THERE!"
+"This isn't very nice" OR 'This isn\'t very nice'
+10 + "34" --> "1034"
+10 - "3" --> 7
+
+3. Boolean 
+true
+false
+3 > 2 --> ture
+5 > 10 --> false
+3 = 3 --> ERROR!
+3 === 3 --> ture
+3 !== 3 --> false
+
+
+4. Underfined
+Undefined variables are variables that have nothing assigned yet.
+
+<!-- 5. Null -->
+<!-- 6. Symbol (new in EMCAScript 6) -->
+<!-- 7. Object -->
+
+
+=======================================================
+JAVASCRIT VARIABLES
+var
+var george = "These pretzels are making me thirsty " + "!";
+> george
+--> "These pretzels are making me thirsty !"
+
+*Variables must start with a letter, $, _. Remember CamelCase*
+
+prompt ("What is your username?");
+alert ("Jorge Pinales");
+
+var first = prompt("enter first number");
+var second = prompt("enter second name");
+var sum = Number(first) + Number(second);
+alert ("The sum is " + sum);
+
+*Variables can be reasigned*
+
+=======================================================
+JAVASCRIPT CONDITIONALS
+var name = "Billy";
+if(name === "Billy"){
+    alert("hi Billy");
+}else if (name === "Sussy"){
+    alert("hi Sussy");
+}else{
+    alert("I don\'t know you")
+}
+
+var userAge = Number(prompt("What\'s your age?"));
+
+if(userAge < 18){
+	alert("Sorry, you are too young to drive this car. Powering off");
+}else if (userAge > 18){
+	alert("Powering On. Enjoy the ride!");
+}else if (userAge === 18) {
+	alert("Congratulations on your first year of driving. Enjoy the ride!");
+}
+
+
+=======================================================
+JAVASICRIPT LOGICAL OPERATORS
+&& -> AND
+|| -> OR
+!  -> NOT
